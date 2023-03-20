@@ -34,12 +34,11 @@
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBlock Text="Arma 3"
+            <Image 
+                   Source="/Images/armalogo.png"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
-                   Foreground="White"
-                   FontSize="25"
-                       Margin="10,0,0,0"
+                   Margin="39,0,0,0" Height="55" Width="133"
                       />
             <StackPanel Grid.Row="1">
                 <RadioButton

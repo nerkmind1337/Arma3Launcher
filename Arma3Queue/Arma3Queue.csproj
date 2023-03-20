@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\armalogo.png" />
     <None Remove="Images\soldier.png" />
   </ItemGroup>
 
@@ -17,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\armalogo.png" />
     <Resource Include="Images\soldier.png" />
   </ItemGroup>
 
