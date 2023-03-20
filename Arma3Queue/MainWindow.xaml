@@ -5,24 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModel="clr-namespace:Arma3Queue.MVVM.ViewModel"
         mc:Ignorable="d"
-        Title="Arma3" MinHeight="600"  MinWidth="900" d:DesignHeight="349.96" d:DesignWidth="580.257" Background="Transparent" WindowStyle="None"  AllowsTransparency="true">
+        Title="Arma3" MinHeight="600"  MinWidth="900" Height="600" Width="900"  d:DesignHeight="349.96" d:DesignWidth="580.257" Background="Transparent" WindowStyle="None"  AllowsTransparency="true">
 
 
 
     <Window.Style>
         <Style>
             <Setter Property="WindowChrome.WindowChrome">
-            <Setter.Value>
-                <WindowChrome GlassFrameThickness="0" ResizeBorderThickness="3" CornerRadius="0" CaptionHeight="60" />
-            </Setter.Value>
-        </Setter>
+                <Setter.Value>
+                    <WindowChrome GlassFrameThickness="0" ResizeBorderThickness="3" CornerRadius="0" CaptionHeight="60" />
+                </Setter.Value>
+            </Setter>
         </Style>
     </Window.Style>
     <Window.DataContext>
         <viewModel:MainViewModel/>
-        
+
     </Window.DataContext>
-    
+
     <Border Background="#272537"
             CornerRadius="20">
         <Grid>
@@ -58,14 +58,6 @@
                     Style="{StaticResource MenuButtonTheme }"/>
             </StackPanel>
 
-            <TextBox Width="250"
-                     Height="40"
-                     VerticalAlignment="Center"
-                     HorizontalAlignment="Left" 
-                     Margin="5"
-                     Text="Search"
-                     Grid.Column="1"
-                      Style="{StaticResource AppTextBox }"/>
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
